@@ -1,0 +1,35 @@
+{
+  "name": "zk-graphql",
+  "version": "0.0.1",
+  "description": "A GraphQL UI for nuid Zk",
+  "author": {
+    "name": "Ming-der Wang",
+    "email": "mingderwang@gmail.com",
+    "url": "muzamint.com"
+  },
+  "main": "server.js",
+  "license": "MIT",
+  "keywords": [
+    "ethereum",
+    "blockchain",
+    "api",
+    "graphql",
+    "raiden"
+  ],
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@nuid/zk": "^0.0.12",
+    "apollo-server-express": "^2.4.8",
+    "es6-promise": "^4.2.6",
+    "express": "^4.16.4",
+    "graphql": "^14.2.1",
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "devDependencies": {
+    "node": "^11.14.0",
+    "nodemon": "^1.18.11"
+  }
+}
