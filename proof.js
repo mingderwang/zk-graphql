@@ -12,7 +12,6 @@ class Proof {
 
 function getProofFromSecret(secret) {
   var proof = Zk.proofFromSecret(secret);
-  console.log(proof)
 
   proof.hashfn['normalization_form']=proof.hashfn['normalization-form']
   proof.keyfn['normalization_form']=proof.keyfn['normalization-form']
